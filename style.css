@@ -1,0 +1,33 @@
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timerBtn{
+    width: 160px;
+    height: 80px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: rgb(10, 108, 245);
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+#timeDisplay{
+    color: rgb(10, 108, 245);
+    font-family: monospace;
+    font-size: 14rem;
+    padding: 35px;
+}
+
+#timeContainer{
+    text-align: center;
+    border: 3px;
+    border-radius: 25px;
+    background-color: #222222;
+    padding: 28px;
+}
