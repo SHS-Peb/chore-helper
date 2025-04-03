@@ -16,12 +16,16 @@ startBtn.addEventListener("click", () => {
     if(paused){
         paused = false;
         startTime = Date.now() - elapsedTime
-        intervalid = setInterval()
+        intervalid = setInterval(updateTime, 75)
     }
 })
-pauseBtn.addEventListener()
-resetBtn.addEventListener()
+pauseBtn.addEventListener("click", () => {})
+resetBtn.addEventListener("click", () => {})
 
-function updateClock(){
-    
+function updateTime(){
+    elapsedTime = Date.now() - startTime;
+    secs = Math.floor ((elapsedTime / 1000) % 60)
+    mins = Math.floor ((elapsedTime / (1000 * 60)) % 60)
+    hrs = Math.floor ((elapsedTime / (1000 * 60 * 60)) % 60)
+    timeDisplay.textContent = `${hrs}:${mins}:${secs}`;
 }
