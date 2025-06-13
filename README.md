@@ -11,6 +11,12 @@
   - After 15 seconds →  soft pink 
 - Fully built using HTML, CSS, and JavaScript
 
+## Screenshots
+
+![Starter Screenshot](./images/starter.PNG)
+![Teal Screenshot](./images/teal.PNG)
+![Pink Screenshot](./images/pink.PNG)
+
 
 ##  How It Works
 
