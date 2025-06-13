@@ -7,8 +7,8 @@
 - Start, pause, and reset a timer
 - Tracks hours, minutes, and seconds
 - Background color shifts based on time:
-  - After 5 seconds → 🌿 teal-ish 
-  - After 15 seconds → 🌸 soft pink 
+  - After 5 seconds →  teal-ish 
+  - After 15 seconds →  soft pink 
 - Fully built using HTML, CSS, and JavaScript
 
 
@@ -23,4 +23,4 @@
 ##  Why This Exists
 
 Made as a practice project while learning how to manipulate the DOM, handle intervals, and make interactive UI elements with plain JavaScript.
-⌛ Little timers make big habits. Keep going, you're doing great!
+Little timers make big habits. Keep going, you're doing great!
